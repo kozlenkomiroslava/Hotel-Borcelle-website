@@ -1,4 +1,5 @@
 import logoImage from '../assets/logo-image.png'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -8,10 +9,10 @@ function Header() {
             </a>
 
             <nav className="nav">
-                <a href="#about">About</a>
-                <a href="#rooms">Rooms</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#contact">Contact</a>
+                <Link to="/about">About</Link>
+                <Link to="/rooms">Rooms</Link>
+                <Link to="/gallery">Gallery</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
 
             <button className="book-button">Book a room</button>

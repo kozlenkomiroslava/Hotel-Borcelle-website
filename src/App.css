@@ -312,3 +312,19 @@ footer {
   font-size: 14px;
   text-decoration: none;
 }
+
+/*LINK*/
+
+.link {
+  min-height: 100vh;
+  padding: 200px 80px;
+  background: white;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.link h1 {
+  color: black;
+}
