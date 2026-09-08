@@ -1,4 +1,5 @@
 import poolImage from '../assets/pool.jpg'
+import { Link } from 'react-router-dom'
 
 function Pool() {
     return(
@@ -10,7 +11,7 @@ function Pool() {
                     swim, and soak up the atmosphere, it is the perfect 
                     place to spend a quiet afternoon or enjoy time with 
                     friends and family.</p>
-                <button className='learnMore'>Discover the Pool Area</button>
+                <Link to='/learnMore' className='learnMore'>Discover the Pool Area</Link>
             </div>
             <img 
             className="pool-image"

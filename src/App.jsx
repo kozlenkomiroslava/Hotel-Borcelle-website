@@ -34,6 +34,7 @@ function App() {
         <Route path="/rooms" element={<Link />} />
         <Route path="/gallery" element={<Link />} />
         <Route path="/contact" element={<Link />} />
+        <Route path="/learnMore" element={<Link />} />
 
       </Routes>
     </BrowserRouter>

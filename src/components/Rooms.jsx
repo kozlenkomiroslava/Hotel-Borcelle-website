@@ -1,4 +1,5 @@
 import roomsSpace from '../assets/rooms.jpg'
+import { Link } from 'react-router-dom'
 
 function Rooms() {
     return (
@@ -15,7 +16,7 @@ function Rooms() {
                    From soft textures to carefully chosen details, 
                    every space is created to make your stay feel special.
                 </p>
-                <button className='learnMore'>Learn more</button>
+                <Link to='/learnMore' className='learnMore'>Learn more</Link>
             </div>
 
         </section>

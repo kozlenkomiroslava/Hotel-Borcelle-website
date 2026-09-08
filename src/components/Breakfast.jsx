@@ -1,4 +1,5 @@
 import breakfastSpace from '../assets/beach.jpg'
+import { Link } from 'react-router-dom'
 
 function Breakfast() {
     return (
@@ -9,7 +10,7 @@ function Breakfast() {
                     featuring a wide selection of fresh and tasty options. 
                     Enjoy as much as you like, completely free with your stay.
                 </p>
-                <button className='learnMore'>Learn more</button>
+                <Link to='/learnMore' className='learnMore'>Learn more</Link>
             </div>
             <img 
                 className="breakfast-image"
