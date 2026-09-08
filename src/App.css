@@ -381,7 +381,6 @@ footer {
   }
 }
 
-/* ===== MOBILE (LANDSCAPE / SMALL TABLET): 768px ===== */
 @media (max-width: 768px) {
   header {
     left: 20px;
@@ -391,7 +390,7 @@ footer {
   }
 
   .nav {
-    display: none; /* або замінити на бургер-меню */
+    display: none;
   }
 
   .hero {
@@ -434,7 +433,7 @@ footer {
   }
 
   .rooms {
-    flex-direction: column-reverse; /* щоб зображення/текст не мінялись місцями хаотично */
+    flex-direction: column-reverse;
   }
 
   .breakfast-content,
@@ -465,7 +464,6 @@ footer {
   }
 }
 
-/* ===== MOBILE (PORTRAIT): 480px ===== */
 @media (max-width: 480px) {
 
   header {
