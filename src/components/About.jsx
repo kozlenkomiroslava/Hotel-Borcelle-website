@@ -1,4 +1,5 @@
 import AboutCard from './AboutCard'
+import highQuality from './assets/high-quality.png'
 
 function About() {
     return (
@@ -8,19 +9,19 @@ function About() {
             <div className="about-cards">
 
                 <AboutCard
-                icon="src/assets/high-quality.png"
+                icon={highQuality}
                 title="Luxury Rooms"
                 text="Elegant rooms designed for comfort, relaxation and a peaceful stay."
                 />
 
                 <AboutCard
-                icon="src/assets/high-quality.png"
+                icon={highQuality}
                 title="Fine Dining"
                 text="Enjoy carefully prepared dishes and a memorable dining experience."
                 />
 
                 <AboutCard
-                icon="src/assets/high-quality.png"
+                icon={highQuality}
                 title="Perfect Location"
                 text="Stay close to the city while enjoying a calm and comfortable atmosphere."
                 />
