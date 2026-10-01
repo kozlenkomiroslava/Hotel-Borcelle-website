@@ -2,7 +2,7 @@
 
 A modern hotel landing page built with React and Vite.
 
-Deploument on Vercel: https://hotel-borcelle-website-hekcke5zb-kozlenkomiroslavas-projects.vercel.app/
+Deployment on Vercel: https://hotel-borcelle-website-hekcke5zb-kozlenkomiroslavas-projects.vercel.app/
 
 ## Features
 
