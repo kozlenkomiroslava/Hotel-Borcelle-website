@@ -1,5 +1,5 @@
 import AboutCard from './AboutCard'
-import highQuality from './assets/high-quality.png'
+import highQuality from "../assets/high-quality.png";
 
 function About() {
     return (
